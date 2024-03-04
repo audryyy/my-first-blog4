@@ -2,5 +2,11 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.post_list, name='post_list'),
+    # Exemple d'une vue pour afficher tous les articles
+    path('', views.all_articles, name='all_articles'),
+    
+    # Exemple d'une vue pour afficher un article individuel
+    path('article/<int:article_id>/', views.article_detail, name='article_detail'),
+    
+    # Ajoutez d'autres URL ici selon les besoins de votre application
 ]
