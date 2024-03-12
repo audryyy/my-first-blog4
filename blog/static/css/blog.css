@@ -1,14 +1,5 @@
-body {
-    padding-left: 15px;
-}
-
-h1 a, h2 a {
-    color: #C25100;
-    font-family: 'Lobster';
-}
-
 .page-header {
-    background-color: #C25100;
+    background-color: #4CAF50;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -18,20 +9,22 @@ h1 a, h2 a {
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 36pt;
     text-decoration: none;
+    font-family: 'Pacifico', cursive; 
+    text-decoration: underline;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', cursive;
 }
 
 .date {
-    color: #828282;
+    color: #333333;
 }
 
 .save {
@@ -46,10 +39,14 @@ h4 {
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #ffffff;
+    color: #FFFFFF;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+}
+
+.post-content {
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .post {
@@ -68,12 +65,12 @@ h4 {
 
 .btn-default,
 .btn-default:visited {
-    color: #C25100;
+    color: #4CAF50;
     background: none;
-    border-color: #C25100;
+    border-color: #4CAF50;
 }
 
 .btn-default:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: #4CAF50;
 }
